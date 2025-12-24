@@ -1,20 +1,27 @@
-*{
-  margin: 0%;
-padding: 0%;
-box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.desktop{
-  background-image: url(./assets/Mask\ group.png);
+
+.desktop {
+  background-image: url("./assets/Mask group.png"); 
+  background-size: cover;  
+  background-position: center;
   width: 100%;
   height: 500px;
-  
+  display: flex;           
+  align-items: center;
+  justify-content: center;
 }
 
-.desktop h1 {
+.desktop h2 {
+  color: green;
   width: 734px;
-  height: 200px;
   font-weight: 400;
   font-size: 80px;
-  line-height: 100%;
+  line-height: 1; 
+  text-align: center;
 }
