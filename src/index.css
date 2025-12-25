@@ -126,7 +126,7 @@ header {
   margin-top: 100px;
   gap: 150px;
   background-image: url("./assets/Video\ overlay.png");
-  width: 100%;
+  width: 1200px;
   height: 967px;
 }
 .invoriem {
@@ -148,7 +148,7 @@ header {
   letter-spacing: 0.03em;
 }
 footer {
-  margin-top: auto;
+  margin-top: 1200px;
  
   padding: 100px 100px;
 }
