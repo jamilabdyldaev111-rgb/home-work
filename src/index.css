@@ -1,35 +1,182 @@
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-};
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 100px;
+  position: absolute;
+  z-index: 1;
+  gap: 600px;
+  
+}
 
+.buttons {
+  display: flex;
+  gap: 118px;
+  align-items: center;
+}
 
 .desktop {
   background-image: url("./assets/Mask group.png"); 
   background-size: cover;  
   background-position: center;
-  width: 100%;
-  height: 500px;
-  display: flex;           
+  display: flex;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: 700px;
+ 
 }
 
 
 .desktop h2 {
-  color: green;
-  width: 734px;
+  color: #114455;
+  width: 634px;
+  height: 200px;
+  font-weight:600;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  
+}
+
+.button {
+  width: 100px;
+  height: 44px;
+  background: #114455;
+  color: white;
+}
+
+
+.second {
+    width: 85px;
+  height: 36px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0%;
+
+  color: #114455
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 150px; 
+}
+
+.page-1 {
+  background-image: url("./assets/studies.png");
+  
+  width: 625px;
+  height: 560px ;
+}
+
+.page-1 h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-top: 400px;
+  margin-right: 120px;
+  
+}
+
+.page-2 {
+  background-image: url("./assets/pusteni.png");
+  width: 625px;
+  height: 560px;
+}
+
+.page-2 h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-top: 400px;
+  margin-right: 130px;
+}
+
+.page-3 {
+  background-image: url("./assets/home.png");
+  width: 625px;
+  height: 560px;
+  background-repeat: no-repeat;
+}
+
+.page-3 h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-top: 400px;
+  margin-right: 200px;
+}
+
+.studies {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 44px;
+  letter-spacing: 0;
+   margin-top: 90px;
+ 
+}
+
+.studies h2 {
+  width: 486px;
+  height: 100px;
   font-weight: 400;
   font-size: 80px;
-  line-height: 1; 
-  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+}
+
+.img-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 150px; 
+  background-image: url("./assets/Video\ overlay.png");
+  width: 100%;
+  height: 967px;
+  
+}
+
+.invoriem {
+  width: 486px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 90px;
+}
+
+.invoriem h2 {
+  color: black;
+  width: 609px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px;
+  
+  gap: 80px;
 }
 
