@@ -124,13 +124,13 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  gap: 150px;
-  background-image: url("./assets/Video\ overlay.png");
+  gap: 100px;
+  background-image: url("./assets/Video\ Picture.png");
   width: 1200px;
   height: 967px;
 }
 .invoriem {
-  width: 486px;
+  width: 456px;
   height: 100px;
   font-weight: 400;
   font-size: 30px;
